@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name value="AIPort" />
+  <Id value="AIPort" />
+  <Version value="v0.0.1" />
+  <Official value="false" />
+  <SingleplayerModule value="true" />
+  <MultiplayerModule value="false" />
+  <DependedModules>
+    <DependedModule Id="Native" DependentVersion="v1.4.7" />
+    <DependedModule Id="SandBoxCore" DependentVersion="v1.4.7" />
+    <DependedModule Id="Sandbox" DependentVersion="v1.4.7" />
+    <DependedModule Id="StoryMode" DependentVersion="v1.4.7" />
+    <DependedModule Id="CustomBattle" DependentVersion="v1.4.7" />
+    <DependedModule Id="Coop" DependentVersion="v0.1.1" />
+  </DependedModules>
+  <DependedModuleMetadatas>
+    <DependedModuleMetadata id="Coop" order="LoadBeforeThis" />
+  </DependedModuleMetadatas>
+  <SubModules>
+    <SubModule>
+      <Name value="AIPort" />
+      <DLLName value="AIPort.dll" />
+      <SubModuleClassType value="AIPort.AIPortSubModule" />
+    </SubModule>
+  </SubModules>
+  <Xmls />
+</Module>

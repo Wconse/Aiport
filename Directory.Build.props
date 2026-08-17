@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <BannerlordDir Condition="'$(BannerlordDir)' == ''">E:\Game\Mount &amp; Blade II Bannerlord</BannerlordDir>
+    <BannerlordClientBin Condition="'$(BannerlordClientBin)' == ''">$(BannerlordDir)\bin\Win64_Shipping_Client</BannerlordClientBin>
+    <CoopClientBin Condition="'$(CoopClientBin)' == ''">$(BannerlordDir)\Modules\Coop\bin\Win64_Shipping_Client</CoopClientBin>
+    <BCoopDir Condition="'$(BCoopDir)' == ''">E:\BCOOP</BCoopDir>
+    <CoopServerBin Condition="'$(CoopServerBin)' == ''">$(BCoopDir)\engine\Modules\Coop\bin\Win64_Shipping_Server</CoopServerBin>
+  </PropertyGroup>
+</Project>

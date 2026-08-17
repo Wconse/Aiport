@@ -1,0 +1,432 @@
+{
+  "updatedUtc": "2026-08-12T22:38:52.924242+00:00",
+  "root": "E:\\Game\\Mount & Blade II Bannerlord\\Modules\\aiport",
+  "fileCount": 85,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 113,
+      "sha256": "4158824d7b717ced9642e385417474f2b885861a74a6d5bff0bf15ad64e94fad"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1234,
+      "sha256": "6826b8ffab2540393f20220ff235ef2d951e62c306af1b361cbc0d181c062cda"
+    },
+    {
+      "path": "artifacts\\bin\\AIPort.dll",
+      "bytes": 14336,
+      "sha256": "fdd693b8c02f541af27f6e638e67e6fcd93abf16e5896378497490cd7da537db"
+    },
+    {
+      "path": "artifacts\\bin\\AIPort.pdb",
+      "bytes": 5032,
+      "sha256": "8e9dac9efea6bcf5f2e05c37b30b636dd43b23315855bc487e286386741435b5"
+    },
+    {
+      "path": "artifacts\\staging\\client\\Coop\\bin\\Win64_Shipping_Client\\AIPort.dll",
+      "bytes": 14336,
+      "sha256": "fdd693b8c02f541af27f6e638e67e6fcd93abf16e5896378497490cd7da537db"
+    },
+    {
+      "path": "artifacts\\staging\\client\\Coop\\SubModule.xml",
+      "bytes": 1712,
+      "sha256": "7469d3c08d185bb40557685dd79292ced589b0982295df3720d3d5d0b5e5e9f0"
+    },
+    {
+      "path": "artifacts\\staging\\manifest.json",
+      "bytes": 1084,
+      "sha256": "1d6840152acfc9a26a3e97946a23d3fe26f7a63852bbb0646e89d551b37f6cb9"
+    },
+    {
+      "path": "artifacts\\staging\\server\\DedicatedServer.Windows\\bin\\Win64_Shipping_Server\\AIPort.dll",
+      "bytes": 14336,
+      "sha256": "fdd693b8c02f541af27f6e638e67e6fcd93abf16e5896378497490cd7da537db"
+    },
+    {
+      "path": "artifacts\\staging\\server\\DedicatedServer.Windows\\SubModule.xml",
+      "bytes": 845,
+      "sha256": "5d8a6559774b88a2c3b0d6e3be62c6c48fc4d1fdfbd7f48470ec7a10f8a57820"
+    },
+    {
+      "path": "config\\client.example.json",
+      "bytes": 120,
+      "sha256": "be52e1a349902130b94bd9cc491b1e41387e5166a605823d9b992a9ba19bc236"
+    },
+    {
+      "path": "config\\server.example.json",
+      "bytes": 384,
+      "sha256": "688330787f3d0cae4d276a6f61becc475d2f79476b7beb08e2317ea9191ecb43"
+    },
+    {
+      "path": "Directory.Build.props",
+      "bytes": 627,
+      "sha256": "194d232a274da008e1ad79aece1abdeafca3d439d51b83d9cfaca06531dfdb01"
+    },
+    {
+      "path": "docs\\ACTION_MATRIX.md",
+      "bytes": 1557,
+      "sha256": "444c612ef27945741f71da4bf7634b099afe78f4821857493a0244c1ca023169"
+    },
+    {
+      "path": "docs\\ARCHITECTURE.md",
+      "bytes": 2190,
+      "sha256": "5e76e94cb4147f518189b1f033fd4f73a072740a59ff57eeb803b82fd498eaad"
+    },
+    {
+      "path": "docs\\BUILD_AND_DEPLOYMENT.md",
+      "bytes": 1989,
+      "sha256": "f2e426abdb52faca05f9f1bd234e9e996e58fff09454165cedf64fcef0a5b2a3"
+    },
+    {
+      "path": "docs\\COOP_COMPATIBILITY_ANALYSIS.md",
+      "bytes": 28951,
+      "sha256": "8753f8ac48355411df973e8c33a6678f2bb401c72fe70f6c22079c1e24c2fac1"
+    },
+    {
+      "path": "docs\\KNOWN_FACTS.md",
+      "bytes": 1304,
+      "sha256": "f733a387f69bbdcf2c586c4a9f3b647e93d4c55d1f577a94e44ecb1d811c172b"
+    },
+    {
+      "path": "docs\\M0_LOADING_STRATEGY.md",
+      "bytes": 2436,
+      "sha256": "b4f9daf833e40b3b34fbaca6a18ed6cab19ad0a15a2386faa95c365980d7b9b2"
+    },
+    {
+      "path": "docs\\NEXT_STEPS.md",
+      "bytes": 801,
+      "sha256": "f062f7cd4235aac1b2819c77972805962005bd6272ca56d04a561dc63d27f98b"
+    },
+    {
+      "path": "docs\\PERSISTENCE.md",
+      "bytes": 796,
+      "sha256": "08324ac66cd2b25476e26daa3a3772d62e5cffbedec3e8602d2a0615fe14e4a8"
+    },
+    {
+      "path": "docs\\PORT_LOG.md",
+      "bytes": 2515,
+      "sha256": "b4ed25c4df5b7e8042e88e53765ac84ee75b1e1655173f0932a65b4518df8428"
+    },
+    {
+      "path": "docs\\PROTOCOL.md",
+      "bytes": 1715,
+      "sha256": "e7cf8c5d8e338dce82c19d22d85397c8f9958ae6094e3080d8d3d01abc530a8c"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\-PrivateImplementationDetails--51D1C015-DA30-43CC-936C-A3B4408038CB-\\F54E0955-E748-4FFA-B3BD-10E2A59FE087.cs",
+      "bytes": 174059,
+      "sha256": "fef6cdfb0cf7797e9b74dc7f056a31fd808b8f913b5392f1a58d8f5d4502ff1d"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\A\\A.cs",
+      "bytes": 3289,
+      "sha256": "be05315fc4d4de3aedf7b65a10c34d64b79356c5129c1d403595a8d40dd5120b"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\A\\B.cs",
+      "bytes": 11454,
+      "sha256": "3ad483e33d275e3128937a5cc513af6c290cc3e493039b7ae33370806ed3a4c9"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\A\\C.cs",
+      "bytes": 601,
+      "sha256": "4f874650cae4fd64fcae3c09bc292585a921f19bb5e3e097676bd7d650adda9b"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\A\\D.cs",
+      "bytes": 4604,
+      "sha256": "41435c5589b694c7f40bbe255b00f3d6b8444bf6874bb10608efb7b93649a9bb"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\A\\E.cs",
+      "bytes": 7074,
+      "sha256": "306590938ba2c476d73dfd3ee420cdc0d2187cb66725553f748a14e5dbc12497"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\A\\F.cs",
+      "bytes": 9818,
+      "sha256": "d116cf9b8656626e8fe23f8dfeb50cd8cdb20819069fabde2c963d8e4abb0602"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\A\\G.cs",
+      "bytes": 6688,
+      "sha256": "6c9decfb1eb6ef79814de126673d8cfdf81cf1b9c58761bf23b5f80b9e16f24d"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\A\\H.cs",
+      "bytes": 15662,
+      "sha256": "bd3210ca54e24dfc54c36fc3c4bf93d38c0f9d019a34c157852e78b2c4c3c5a1"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\A\\I.cs",
+      "bytes": 3791,
+      "sha256": "66a7c14b55c33e67b913965926f19bd38f4ca5750b4c1450e1e0b79a16696fba"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\A\\J.cs",
+      "bytes": 6967,
+      "sha256": "afab3575196c09b8421b6f5462a9120ddf49ae46088588054f4a15367fe9f79e"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\A\\K.cs",
+      "bytes": 17994,
+      "sha256": "915665222840190e1dc46ef923b4b23ad4146072135d581c3feb11f7a0860a1b"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\A\\L.cs",
+      "bytes": 8719,
+      "sha256": "39f3501d027ce74126121a1552b86828ea1aea7ff44954eccc1f767afeadd1c3"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer.Core.csproj",
+      "bytes": 1405,
+      "sha256": "09cfb40eb3ebcf0d1e334605cba462b1d6e30d1ac38cb4ab1961fbe60aae03ca"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\BannerlordUserData.cs",
+      "bytes": 2781,
+      "sha256": "cf95488297b6fa84e45e39912464a6294feb8357b870c683d21e3e8bcdc03937"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\CoopDriver.cs",
+      "bytes": 5886,
+      "sha256": "ffe81be3e5314d8da8071efdc27720e6e817464c3dd5e6afe64830150aba79c8"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\CoopServerHost.cs",
+      "bytes": 43441,
+      "sha256": "dc833cc21a5d47108a663f1cca99a7caaca689572e49ad6dc97a7bca97f3178c"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\DsConfig.cs",
+      "bytes": 3396,
+      "sha256": "44f8c931a8ff63df9ea3a3bfb05621bde5f0f6247aacc71ba13b189714b984bd"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\GameVersionGuard.cs",
+      "bytes": 5974,
+      "sha256": "7e5953beff660a8c6467edcd26204ee27af60299420fd1efc6e35a3a401ff57e"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\HeroSpawnGuardPatch.cs",
+      "bytes": 1364,
+      "sha256": "7b88b8a7cdcf8b4d3d62e3d89604d03db510f203ad3ca358c50510402bd85124"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\InquiryAutoAcceptPatch.cs",
+      "bytes": 1187,
+      "sha256": "4d0383acbd6c35239dc65f26454fedbc1678532ef5fe79e13a16776e64bea4ca"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\LoadingScreenGuardPatch.cs",
+      "bytes": 1118,
+      "sha256": "b468e6aae0d36af0e4fb39eab36a9c0768b11f52fe51d816de919bc0c9dc700c"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\ModuleValidationLogPatch.cs",
+      "bytes": 4329,
+      "sha256": "f851c46fda0feebffde68069e6171a4e4b8c6265ffe7a1d98afc3be3a0755790"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\NativeAutoSaveSuppressPatch.cs",
+      "bytes": 971,
+      "sha256": "822838af7736570a63d7b99d7983998eaf6378c225c9aca74edf11b4f49a03a2"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\PlayerRoster.cs",
+      "bytes": 10135,
+      "sha256": "ebe632f2382baf17ad2636876a1568440065e7d9ab06af61c08da2fa20b80207"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\PublishTracePatch.cs",
+      "bytes": 2426,
+      "sha256": "ea08fcfbc3772af4bc227bb363d73b8d851ef88762c631fa65136313d5c37d83"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\ServerConfigData.cs",
+      "bytes": 5202,
+      "sha256": "684fa50852492d9eead4b8eebc2543abb43f6239c322ee3496a0ef8555ac2a9c"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\ServerConsole.cs",
+      "bytes": 15318,
+      "sha256": "fbcdabd04faf4569f40ca6f1ede577600201e10d35ef161c2d9a273b3bd86664"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\SiegeCampPositionGuardPatch.cs",
+      "bytes": 2025,
+      "sha256": "64474cc3c94a415c6281e6c92ddf557b419484ed0e9344fae2ffe83e33187454"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\TickTracePatch.cs",
+      "bytes": 11429,
+      "sha256": "80ad6428b1f9ae193e236145b77d483d1e2ffde2261c9e74bbf2d6b1d0f3ce1e"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\DedicatedServer\\ViewGuardPatches.cs",
+      "bytes": 1104,
+      "sha256": "9d31bd8205a2e6f94f6671204ff8502ce653ae1d2d1207b67d828753cedd78c6"
+    },
+    {
+      "path": "docs\\research\\decompiled_dedicated_core\\Properties\\AssemblyInfo.cs",
+      "bytes": 169,
+      "sha256": "8448cd69c8c76485d436ba5a0ec7e0a7ee8586123d12639234f00a22edeeb9cf"
+    },
+    {
+      "path": "docs\\research\\DEDICATED_SERVER_BOOTSTRAP_FINDINGS.md",
+      "bytes": 1713,
+      "sha256": "06424de0d99b13b754bb1e6ec30b179f5faf5790158f60b2ac60fec420569a19"
+    },
+    {
+      "path": "docs\\research\\EXTRACTION_README_RU.md",
+      "bytes": 3728,
+      "sha256": "e63757c62298f2ebb467736d59be29231bfb10a47b67501099f9823c99a2e1e3"
+    },
+    {
+      "path": "docs\\research\\EXTRACTION_STATS.json",
+      "bytes": 2547,
+      "sha256": "f01f146111d16e48611fd5bffede085f7a7e469c75fef615d6fec93c21edf4e8"
+    },
+    {
+      "path": "docs\\research\\HEADLESS_PARTITION.tsv",
+      "bytes": 57603,
+      "sha256": "f42535e907f4c25491c25d7c218b7523745c6a57be2fd981bddece45c0971fdf"
+    },
+    {
+      "path": "docs\\research\\indexes\\METHOD_INDEX.tsv",
+      "bytes": 3216423,
+      "sha256": "b05b84ba664b9fca051ecaf638331e5a539edf8dc21d3072c9faa039ade2e2de"
+    },
+    {
+      "path": "docs\\research\\indexes\\TYPE_INDEX.tsv",
+      "bytes": 759992,
+      "sha256": "a390509655517ec92b6db9fc9619c568a052bb1b26417d26b111d4f1c20e5e0e"
+    },
+    {
+      "path": "PORT_STATUS.md",
+      "bytes": 2046,
+      "sha256": "d6c4d25b06aae7edc03af31e7e99d05e432a3261a3126697eb3325e53398b03d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 896,
+      "sha256": "8380bde078479e2d886118a52956b5eb192a87806854523f1d9577818ceabd7a"
+    },
+    {
+      "path": "src\\AIPort\\AIPort.csproj",
+      "bytes": 1933,
+      "sha256": "9c28e7e2d3f36cffd942a256a7b365cc80bdaa6d1a203cc27f442c84afae2bda"
+    },
+    {
+      "path": "src\\AIPort\\AIPortSubModule.cs",
+      "bytes": 497,
+      "sha256": "a3c8d3f71534b2639376df58338ba2f0dcd350be1b52c050648e819204f30788"
+    },
+    {
+      "path": "src\\AIPort\\CoopIntegration\\Client\\AIPortHandshakeClientHandler.cs",
+      "bytes": 3033,
+      "sha256": "f6161fd4ea22e441de714e49546f618ddb344087a83d9ad375e243c6921c9f64"
+    },
+    {
+      "path": "src\\AIPort\\CoopIntegration\\Server\\AIPortHandshakeServerHandler.cs",
+      "bytes": 2044,
+      "sha256": "7fc56b937e099920c9e7b678b7894b1887e0aef7bc993cc952a9fc81f923fced"
+    },
+    {
+      "path": "src\\AIPort\\Protocol\\AIPortProtocol.cs",
+      "bytes": 225,
+      "sha256": "d9a50ec43f151b96d08958c617b25f388b25ca0a8dd206221cf3a8a06b652f1b"
+    },
+    {
+      "path": "src\\AIPort\\Protocol\\Messages\\AIConversationAccepted.cs",
+      "bytes": 643,
+      "sha256": "b8457ccf963f2048a2ea08098e2e53ab15182de9112ab9bd79837f39eafdb258"
+    },
+    {
+      "path": "src\\AIPort\\Protocol\\Messages\\AIConversationCancel.cs",
+      "bytes": 501,
+      "sha256": "5a395b7fe37a91e766a369dc3d22e3e81abf3daaaa8ff542f3786cf8b264e44b"
+    },
+    {
+      "path": "src\\AIPort\\Protocol\\Messages\\AIConversationError.cs",
+      "bytes": 722,
+      "sha256": "3ec6998d9a76b130d5bace4988cd51d0bed3ebb384d1f6b0c6acd4eb6694393d"
+    },
+    {
+      "path": "src\\AIPort\\Protocol\\Messages\\AIConversationRequest.cs",
+      "bytes": 1174,
+      "sha256": "76b98c4c1ccfbe9602bdb3e8e31bf8252ae3a91d9bff34e94642a2ce41329ce5"
+    },
+    {
+      "path": "src\\AIPort\\Protocol\\Messages\\AIConversationResult.cs",
+      "bytes": 1156,
+      "sha256": "aa6e0d14248b46078bb0321a7f26aab0a4c4267e9f3c6932e81cb31ad703413d"
+    },
+    {
+      "path": "src\\AIPort\\Protocol\\Messages\\AIPortHandshakeRequest.cs",
+      "bytes": 667,
+      "sha256": "1cb38c7ff4d7bd012ce8abb9d370f5e9509508a789608be50d175ab59efb71d9"
+    },
+    {
+      "path": "src\\AIPort\\Protocol\\Messages\\AIPortHandshakeResponse.cs",
+      "bytes": 899,
+      "sha256": "cb75f03bea9718b0ba5d1c84a0349e5ed085caa7f2ea3ea1519eec0233aedcdc"
+    },
+    {
+      "path": "src\\AIPort\\Server\\AIRequestContext.cs",
+      "bytes": 1027,
+      "sha256": "378ea1daa587cc9eb5c74f6092f76376e755d460013b6fe0e21daeaebf659595"
+    },
+    {
+      "path": "src\\AIPort\\Server\\IAIPortServerSettings.cs",
+      "bytes": 385,
+      "sha256": "b20499a63e42ac73750cbe30f8db2aa65be1a1051ead7b12ad0f35e1338bd1db"
+    },
+    {
+      "path": "SubModule.xml.template",
+      "bytes": 985,
+      "sha256": "7fb0b1e69a36945d98f0ed895591d74e6cade1fc828f9f1de285dcef629f4a3a"
+    },
+    {
+      "path": "tools\\build.cmd",
+      "bytes": 35,
+      "sha256": "3db2eb502edf0451b38aabe6f0b4003e9e44fa43d95dd246eddc768876a08f83"
+    },
+    {
+      "path": "tools\\build.py",
+      "bytes": 1669,
+      "sha256": "9680042377295fc0ec6039749d0575d4716fd3e1146c5a0106ec43876d746a3d"
+    },
+    {
+      "path": "tools\\deploy_m0.cmd",
+      "bytes": 45,
+      "sha256": "6f06b77828c579c84921be6099e4c7cc7d2827c5a6922de4d027a9d1eb523bfe"
+    },
+    {
+      "path": "tools\\deploy_m0.py",
+      "bytes": 3342,
+      "sha256": "2dba5352d27bc6fcdf2142ad1e0b1c65d222160b32d083f036c7b0c9bd10cb3d"
+    },
+    {
+      "path": "tools\\rollback_m0.cmd",
+      "bytes": 47,
+      "sha256": "b4a1025453b691f3e7bdcb22b4352beb4b3cb7f2a4c6af70cb2b996c55ed8e2d"
+    },
+    {
+      "path": "tools\\rollback_m0.py",
+      "bytes": 1551,
+      "sha256": "cbbb8984194e65c582d2a3955d241aa037e2f4e2badf3cee7a584a43fd480cb6"
+    },
+    {
+      "path": "tools\\stage_m0.cmd",
+      "bytes": 36,
+      "sha256": "fc8b37b6c2fb11e4c4a604619e49c2bc5aeb1184ee9327162bd497bdb7ab9f7c"
+    },
+    {
+      "path": "tools\\stage_m0.py",
+      "bytes": 3078,
+      "sha256": "3936e3ad9e90e4556ee5a955d99ba569cc773c5fdc150030564e205fd1e3afe8"
+    }
+  ]
+}
