@@ -1,0 +1,21 @@
+{
+  "enabled": false,
+  "backend": "OpenRouter",
+  "model": "openai/gpt-4o-mini",
+  "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+  "player2TokensPath": "",
+  "player2AccountsPath": "",
+  "requestTimeoutSeconds": 90,
+  "maxConcurrentRequests": 1,
+  "maxCompletionTokens": 384,
+  "maxRequestsPerPlayerPerMinute": 4,
+  "enablePersistentMemory": false,
+  "enableRelationShadowIntents": false,
+  "enableNativeWarAdapter": false,
+  "enableNativePeaceAdapter": false,
+  "enableNpcDiplomacyInitiative": false,
+  "npcDiplomacyDailyBudget": 2,
+  "npcDiplomacyMinimumIntervalHours": 6,
+  "npcDiplomacyPairCooldownDays": 7,
+  "npcDiplomacyMinimumScore": 82
+}

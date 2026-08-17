@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "showPendingState": true,
+  "showErrors": true,
+  "enableTts": false,
+  "enableImages": false
+}

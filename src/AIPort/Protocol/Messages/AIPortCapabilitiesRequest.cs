@@ -1,0 +1,3 @@
+using Common.Messaging;
+using ProtoBuf;
+namespace AIPort.Protocol.Messages { [ProtoContract(SkipConstructor=true)] public sealed class AIPortCapabilitiesRequest : ICommand,IMessage { [ProtoMember(1,IsRequired=true)] public int ProtocolVersion{get;} [ProtoMember(2)] public string RequestId{get;} [ProtoMember(3)] public int ClientCapabilityFlags{get;} [ProtoMember(4)] public int StateSchemaVersion{get;} public AIPortCapabilitiesRequest(int protocolVersion,string requestId,int clientCapabilityFlags,int stateSchemaVersion){ProtocolVersion=protocolVersion;RequestId=requestId;ClientCapabilityFlags=clientCapabilityFlags;StateSchemaVersion=stateSchemaVersion;} } }

@@ -1,0 +1,21 @@
+{
+  "enabled": false,
+  "backend": "Player2",
+  "model": "account-configured",
+  "endpoint": "https://api.player2.game/v1/chat/completions",
+  "player2TokensPath": "E:/BCOOP/Новая папка/player2_toolbox/accounts.txt.tokens.txt",
+  "player2AccountsPath": "E:/BCOOP/Новая папка/player2_toolbox/accounts.txt",
+  "requestTimeoutSeconds": 90,
+  "maxConcurrentRequests": 1,
+  "maxCompletionTokens": 384,
+  "maxRequestsPerPlayerPerMinute": 4,
+  "enablePersistentMemory": true,
+  "enableRelationShadowIntents": true,
+  "enableNativeWarAdapter": false,
+  "enableNativePeaceAdapter": false,
+  "enableNpcDiplomacyInitiative": false,
+  "npcDiplomacyDailyBudget": 2,
+  "npcDiplomacyMinimumIntervalHours": 6,
+  "npcDiplomacyPairCooldownDays": 7,
+  "npcDiplomacyMinimumScore": 82
+}
